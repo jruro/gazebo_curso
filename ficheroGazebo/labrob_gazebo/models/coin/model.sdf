@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="coin">
+	<static>true</static>
+	<link name='chassis'>
+	<pose>0 0 .25 0 0 0</pose>
+
+	<visual name='visual'>
+      <pose>0 0 0 0 1.57 0</pose>
+	  <geometry>
+		<cylinder>
+		  <radius>.25</radius>
+		  <length>.1</length>
+		</cylinder>
+	  </geometry>
+      <material>
+        <ambient>1 1 0 1</ambient>
+        <diffuse>1 1 0 1</diffuse>
+        <specular>0.1 0.1 0.1 1</specular>
+        <emissive>0 0 0 0</emissive>
+      </material>
+	</visual>
+	</link>
+	</model>
+</sdf>
